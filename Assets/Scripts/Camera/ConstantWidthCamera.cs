@@ -4,7 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(Camera))]
 public class ConstantWidthCamera : MonoBehaviour
 {
-    [SerializeField] private float horizontalFOV = 90f; // what you want to keep constant
+    [SerializeField] private float horizontalFOV = 90f;
 
     private Camera cam;
     private float aspectOld = 0;

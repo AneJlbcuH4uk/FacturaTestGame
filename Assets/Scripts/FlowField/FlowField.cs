@@ -16,7 +16,6 @@ public class FlowField
 
     public Vector2[,] Directions => directions;
     public Vector2Int Origin => origin;
-    //public int Size => size;
 
     public int SizeX => sizeX;
     public int SizeY => sizeY;
@@ -121,11 +120,6 @@ public class FlowField
 
         return new Vector3(dir.x, 0, dir.y).normalized;
     }
-
-    static readonly Vector2Int[] Directions4 =
-{
-    new(1,0), new(-1,0), new(0,1), new(0,-1)
-};
 
     static readonly Vector2Int[] Directions8 =
     {
